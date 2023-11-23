@@ -4,23 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>API Clima</title>
+    <link rel="shortcut icon" href="./source/window-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>API Clima V1</title>
   </head>
   <body>
-    <h1>Nuestra app del clima</h1>
+    
+    <div class="container0">
+      <h1>WEATHER</h1>
+      <input class="inputCity" id="inputCity" type="text" placeholder="Escribe una ciudad">
+      <button class="btnSearch" id="btnSearch">Buscar Temperatura</button>
+    </div>
 
-    <p id="paragraph">Esta es una explicación sobre mi app del clima</p>
 
-    <input id="inputCity" type="text" placeholder="Escribe una ciudad">
-    <button id="btnSearch">Buscar Temperatura</button>
+  <div class="container1">
+    <div class="first">
+      <p id="temp"></p>
+      <img src="" alt="">
+    </div>
+    <div class="second">
+      <p id="city"></p>
+      <p id="date"></p>
+    </div>
+    
+  </div>
 
-<div class="container">
-  <img src="" alt="">
-    <p id="nameCountry"></p>
-    <p id="city"></p>
-    <p id="temp"></p>
-    <p id="wind"></p>
-</div>
+  <div class="container2">
+    <h2>TODAY</h2>
+    <div class="extras">
+      <i class="fa-solid fa-wind"></i>
+      <h3>WIND s</h3>
+      <p id="wind"></p>
+    </div>
+    <div class="extras">
+      <i class="fa-solid fa-cloud-rain"></i>
+      <h3>SKY</h3>
+      <p id="clouds"></p>
+    </div>
+    <div class="extras">
+      <i class="fa-solid fa-droplet"></i>
+      <h3>HUMIDITY</h3>
+      <p id="humidity"></p>
+    </div>
+    <div class="extras">
+      <i class="fa-solid fa-sun"></i>
+      <h3>SUNRISE</h3>
+    <p id="sunrise"></p>
+    </div>
+    <div class="extras">
+      <i class="fa-solid fa-temperature-high"></i>
+      <h3>TEMP </h3>
+    <p  id="tempMinMax"></p>
+    </div>
+    <div class="extras">
+      <i class="fa-regular fa-sun"></i>
+      <h3>SUNSET</h3>
+    <p id="sunset"></p>
+    </div>
+  </div>
     
 
 <!--     <p id="loadP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore similique dolorum laborum doloremque aliquid eos quod repellendus deleniti architecto ullam, perferendis voluptate sunt nihil voluptatem quo. Consequuntur, facilis vitae!</p> -->

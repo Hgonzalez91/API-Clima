@@ -1,0 +1,127 @@
+.container0{
+    width: 365px;
+    height: auto;
+    margin: 60px 20px 20px 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 40px;
+}
+
+.container0 h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.inputCity{
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--color-gray);
+}
+
+.btnSearch {
+    width: 150px;
+    height: 40px;
+    background-color: var(--color-yellow);
+    border-radius: 50px;
+    border: none;
+    font-family: var(--font-nunito);
+    color: var(--color-white);
+}
+
+.btnSearch:hover {
+    background-color: rgb(194, 116, 0);
+}
+
+.container1 {
+    width: 365px;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+.container1 .first {
+    width: 100%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.first p {
+    height: 100px;
+    margin: 20px 20px 0 0 ;
+    font-size: 70px;
+}
+
+.first img {
+    width: 150px;
+    height: 150px;
+}
+
+.container1 .second {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.second p {
+    margin: 0;
+}
+
+.container2 {
+    width: 365px;
+    height: auto;
+    margin: 20px 0 60px 0;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 40px;
+}
+
+.container2 i {
+    font-size: 20px;
+    color: var(--color-yellow);
+}
+
+.container2 h2 {
+    margin: 0;
+    grid-column: 1/4;
+    font-size: 40px;
+}
+
+.container2 .extras {
+    width: 100px;
+    height: 82px;
+    display: inherit;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.extras h3 {
+    margin: 0;
+}
+
+.extras p {
+    margin: 0;
+}
