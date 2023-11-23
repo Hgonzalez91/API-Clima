@@ -37,6 +37,7 @@
 
 .btnSearch:hover {
     background-color: rgb(194, 116, 0);
+    cursor: pointer;
 }
 
 .container1 {
